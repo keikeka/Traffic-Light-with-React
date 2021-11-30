@@ -1,41 +1,25 @@
-# Hello World with React boilerplate
-<p>
-  <a href="https://gitpod.io#https://github.com/4GeeksAcademy/react-hello.git"><img src="https://raw.githubusercontent.com/4GeeksAcademy/react-hello/master/open-in-gitpod.svg?sanitize=true" />
-  </a>
-</p>
+# Traffic Light with React
 
-This template is similar to create-react-app but it's meant for 4Geeks Academy students.
+> By Keili Rosales
 
-##### Download the boilerplate using git
+## Objective
 
-```
-$ git clone https://github.com/4GeeksAcademy/react-hello.git
-$ cd react-hello
-```
+Using the ReactDOM.render to process the component in the DOM, simulate a traffic light that shows its three colors and when clicking on any of them lights up around the color, this is possible using the hook useState to store the color that should shine according to the action. 
+ 
+The objective of the exercise is to understand how we can change the value of a variable and how it behaves inside the HTML of the component, using the hook useState.
 
-##### and install the npm package:
-```
-$ npm install
-```
+## Application
 
-## Start coding!
+1. Install the NPM packages (be sure to use the latest version of node): `npm install`.
+2. Run the project using: `npm run start`.
+Verify that the component is working and light changes by clicking on any color of the traffic light. 
 
-For Windows, Mac, Linux or Gitpod, start the webpack server with live reload:
-- `$ npm run start`
+## Technologies
 
-You can update the `styles/index.scss` or `js/index.js` depending on your needs.
-Add more files into your, `./src/js/components` or styles folder as you need them.
+- ReactJS
 
-## Publish your website!
+## Contributions
 
-This boilerplate is 100% compatible with the free [github pages](https://pages.github.com/) and [vercel](https://vercel.com/) hosting.
+I'd love to get your appreciation or report on the code at https://github.com/keikeka/Traffic-Light-with-React
 
-It takes just 2 minutes to deploy, [click here to start the process](https://github.com/4GeeksAcademy/react-hello/blob/master/docs/DEPLOY.md).
-
-## Other features
-
-- Automatic Code Formatting: Use of [Prettier](https://prettier.io/) for automatic code indentation and formatting.
-- Error reporting: Use of [eslint](https://eslint.org/) for better error reporting.
-- Hot Deploy: Use of [Webpack Development Server](https://webpack.js.org/configuration/dev-server/) for hot deploy and live reload.
-- One-command publish of the code to github pages with `npm run deploy:github`.
-- Babel 7 (really fast).
+Thank you very much!
